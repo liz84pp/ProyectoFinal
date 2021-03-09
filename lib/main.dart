@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'reviewlist.dart';
-import 'trajeta_imagenes.dart';
+//import 'trajeta_imagenes.dart';
 import 'background_gradient.dart';
+import 'cardimage.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,12 +30,12 @@ class MyApp extends StatelessWidget {
           children: [
             ListView(
               children: [
-                DescriptionPlace("Bahamas", 5, descriptionDummy),
+                DescriptionPlace("Oaxaca", 5, descriptionDummy),
                 ReviewList(),
               ],
             ),
             GradientBackground(),
-            CardImage("asset/people.jpg"),
+            CardImage("asset/chem1.jpg"),
           ],
         )
  ),
