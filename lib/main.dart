@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'reviewlist.dart';
-//import 'trajeta_imagenes.dart';
-import 'background_gradient.dart';
-import 'cardimage.dart';
+import 'header_appbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,8 +32,7 @@ class MyApp extends StatelessWidget {
                 ReviewList(),
               ],
             ),
-            GradientBackground(),
-            CardImage("asset/chem1.jpg"),
+            HeaderAppBar()
           ],
         )
  ),
