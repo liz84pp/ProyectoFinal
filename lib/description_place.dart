@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'button_purple.dart';
 //libreria default para obtener los widgets de flutter
 class DescriptionPlace extends StatelessWidget {
   @override
@@ -92,9 +93,11 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         title_star,
         description,
+        ButtonPurple("Navigate")
       ],
     );
   }

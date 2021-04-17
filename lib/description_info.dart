@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class description_info extends StatelessWidget {
   @override
   String namePlace;

@@ -12,17 +12,17 @@ class GradientBackground extends StatelessWidget {
       height: 230.0,
       decoration: BoxDecoration (
         gradient: LinearGradient(
-          colors: [
-            Colors.blue,
-            Colors.greenAccent,
-          ]
+            colors: [
+              Colors.blue,
+              Colors.greenAccent,
+            ]
         ),
       ),
       child: Text(
         title,
         style: TextStyle(
             color: Colors.white,
-            fontSize: 20.0,
+            fontSize: 30.0,
             fontFamily: "Lato",
             fontWeight: FontWeight.bold
         ),
