@@ -15,7 +15,7 @@ class  CardImage extends StatelessWidget {
       height: 350.0,
       width: 250.0,
       margin: EdgeInsets.only(
-          top: 50.0,
+          top: 80.0,
           left: 60.0,
           bottom: 20.0
 
