@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demogit/profileedit.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
@@ -19,7 +20,8 @@ class _UaoTrips extends State<UaoTrips> {
     HomeTrips(),
     SearchTrips(),
     ProfileTrips(),
-    CakeTrips()
+    CakeTrips(),
+    ProfileEdit(),
   ];
 
   void onTapTapped(int index){
@@ -68,6 +70,10 @@ class _UaoTrips extends State<UaoTrips> {
               BottomNavigationBarItem(
                 icon: Icon(Icons.cake),
                 label: "Cakes",
+              ),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.settings),
+                  label: "Configuración",
               ),
             ]
         ),
